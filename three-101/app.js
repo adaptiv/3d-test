@@ -36,3 +36,12 @@ var render = function() {
 };
 
 render();
+
+// responsive renderer
+window.onresize = function(){
+	console.log("Window size: "+window.innerWidth+"x"+window.innerHeight+"px");
+	renderer.setSize(window.innerWidth,window.innerHeight);
+	var aspectRatio = window.innerWidth/window.innerHeight;
+	camera.aspect = aspectRatio;
+	camera.updateProjectionMatrix();
+}
