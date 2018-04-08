@@ -22,7 +22,7 @@ var cube = new THREE.Mesh(geometry, material);
 
 scene.add(cube);
 
-var controls = new THREE.OrbitControls( camera, renderer.domElement );
+var controls = new THREE.OrbitControls(camera, renderer.domElement);
 
 // Render Loop
 var render = function() {
@@ -38,10 +38,10 @@ var render = function() {
 render();
 
 // responsive renderer
-window.onresize = function(){
-	console.log("Window size: "+window.innerWidth+"x"+window.innerHeight+"px");
-	renderer.setSize(window.innerWidth,window.innerHeight);
-	var aspectRatio = window.innerWidth/window.innerHeight;
-	camera.aspect = aspectRatio;
-	camera.updateProjectionMatrix();
+window.onresize = function() {
+  console.log("Window size: " + window.innerWidth + "x" + window.innerHeight + "px");
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  var aspectRatio = window.innerWidth / window.innerHeight;
+  camera.aspect = aspectRatio;
+  camera.updateProjectionMatrix();
 }

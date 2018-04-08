@@ -11,11 +11,12 @@ Exploring js 3D engines
 * GUI http://workshop.chromeexperiments.com/examples/gui/#1--Basic-Usage
 * OrbitControls https://raw.githubusercontent.com/mrdoob/three.js/master/examples/js/controls/OrbitControls.js
 
+* https://github.com/project-codeology/codeology
 
-https://github.com/project-codeology/codeology
+* https://www.youtube.com/watch?v=ABV1mK1CGOY&list=PL08jItIqOb2qyMOhtEUoLh100KpccQiRf
 
 ## Notes
 
-* Investigate file formats for content delivery
-  * [ ] `obj` + `mtl`
-  * [ ] `gltf`
+Investigate file formats for content delivery:
+* [ ] `obj` + `mtl`
+* [ ] `gltf`
