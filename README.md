@@ -3,7 +3,7 @@ Exploring js 3D engines
 
 ## Resources
 *   [three.js](https://threejs.org/docs/)
-*   [three.js video tutorial](https://www.youtube.com/watch?v=ABV1mK1CGOY)
+*   [Diving in: Three.js - video tutorial series](https://www.youtube.com/playlist?list=PL08jItIqOb2qyMOhtEUoLh100KpccQiRf)
 *   [three.js 101 - article](https://medium.com/@necsoft/three-js-101-hello-world-part-1-443207b1ebe1)
 *   [3d file formats](https://all3dp.com/3d-file-format-3d-files-3d-printer-3d-cad-vrml-stl-obj/)
 
